@@ -1,13 +1,3 @@
----
-clase: github
-archivo: golden-book
-seccion: read-me
-
-fecha:  2021-09-25
-
-estado: [["Por Subir", "Faltan imágenes"]]
----
-
 # Read Me
 
 #### Important / Warning
