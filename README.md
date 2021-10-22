@@ -1,4 +1,4 @@
-# Read Me
+# ***Golden Book***
 
 #### Important / Warning
 
@@ -10,8 +10,7 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 
 ## Gallery
 
-![[Gallery1.png]]
-
+![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Gallery1.png)
 
 ## Aside / Hidden Text
 
@@ -25,11 +24,11 @@ Information below the hidden message
 
 When you see the note in Preview View, you will see this icon:
 
-![[AsidePreviewViewNotHover.png]]
+![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/AsidePreviewViewNotHover.png)
 
 When you hover over that Icon, it will spawn this message:
 
-![[AsidePreviewViewHover.png]]
+![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/AsidePreviewViewHover.png)
 
 This icons appears on the left side of the note, and it won't show on your PDFs.
 
@@ -88,7 +87,7 @@ This icons appears on the left side of the note, and it won't show on your PDFs.
 ##### Kanban
 - **Grid** - Toggle the Grid Vision of "Kanban"
 
-###### Admonition
+##### Admonition
 - **Centered Admonition Title** - Toggle the center status of the title
 - **Centered Admonition Content** - Toggle the center status of the content of the "Admonition Content". (Excluding some stuff that don't center well, like unordered and ordered lists)
 
