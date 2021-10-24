@@ -799,12 +799,20 @@ a.internal-link.is-unresolved:hover {
 }
 
 a.internal-link {
-    color: #744600 !important;
+    color: #ec6e00 !important;
 }
 
 a.internal-link:hover {
-    color: #c5811a !important;
+    color: #ff7e0d !important;
     font-weight: 650;
+}
+
+blockquote a.internal-link {
+    color: #ff3c00 !important;
+}
+
+blockquote a.internal-link:hover {
+    color: #ff4d17 !important;
 }
 
 .cm-s-obsidian span.cm-formatting-link {
@@ -966,6 +974,7 @@ pre[class*="language-"]{
     padding-top: 7px;
 }
 
+
 /*----- <Tables> -----*/
 .cm-s-obsidian .HyperMD-table-row {
     white-space: pre;
@@ -1119,6 +1128,11 @@ markdown-preview-view .mermaid .node:hover {
     fill: #5d3800 !important;
 }
 
+.mermaid .edgeLabel {
+    background-color: #fcb16a !important;
+    border-radius: 20px !important;
+}
+
 .mermaid g.classGroup text {
     fill: white !important;
     stroke: white !important;
@@ -1192,6 +1206,11 @@ ol ol {
 }
 
 ul ul {
+    margin-left: calc(-15px + calc(16px - var(--editor-font-size))*0.01) !important;
+    border-left: 2px solid #926b3b !important;
+}
+
+ul ul ul {
     margin-left: calc(-17px + calc(16px - var(--editor-font-size))*0.01) !important;
     border-left: 2px solid #926b3b !important;
 }
@@ -1207,7 +1226,7 @@ ol ul {
 }
 
 ol ul ul {
-    margin-left: calc(-14px + calc(16px - var(--editor-font-size))*0.01) !important;
+    margin-left: calc(-17px + calc(16px - var(--editor-font-size))*0.01) !important;
 }
 
 ul ol ol {
@@ -2185,26 +2204,35 @@ img {
 }
 
 /*----- <Backlinks> -----*/
-.tree-item-inner {
-    color: black;
-}
-
-.search-result-file-match {
+.backlink-pane .tree-item-inner {
     color: black !important;
 }
 
-.search-result-file-match:hover {
+.backlink-pane .search-result-file-match {
+    color: black !important;
+}
+
+.workspace-leaf-content .tree-item-inner {
+    color: white;
+}
+
+.workspace-leaf-content .search-result-file-match {
+    color: white;
+}
+
+
+.backlink-pane .search-result-file-match:hover, .backlink-pane .tree-item-inner:hover {
     color: white !important;
 }
 
-.search-result-file-matched-text{
+.backlink-pane .search-result-file-matched-text{
     color: black !important;
     background-color: gold !important;
     font-weight: bold !important;
     transition: all 0.35s ease;
 }
 
-.search-result-file-matched-text:hover {
+.backlink-pane .search-result-file-matched-text:hover {
     padding-left: 7px !important;
     padding-right: 7px !important;
     border-radius: 15px !important;
@@ -2216,16 +2244,16 @@ img {
     font-style: italic !important;
 }
 
-.nav-action-button.is-active:hover {
+.backlink-pane .nav-action-button.is-active:hover {
     color: white !important;
 }
 
-.search-result-file-match-replace-button {
+.backlink-pane .search-result-file-match-replace-button {
     opacity: 0;
     background-color: #5f3805 !important;
 }
 
-.search-result-file-match-replace-button:hover {
+.backlink-pane .search-result-file-match-replace-button:hover {
     opacity: 0;
 }
 
@@ -2401,34 +2429,38 @@ aside::before {
     display: block;
     position: absolute;
     visibility: visible;
-    height: 23px;
-    width: 23px;
+    height: 23px !important;
+    width: 23px !important;
     border-radius: 4px;
     background-color: #d4ac77;
 }
 
 aside {
-    transition: all 0.09s ease-out;
+    transition: all 0.15s ease-out;
     float: right; clear: right;
     position: absolute;
     visibility: hidden;
     position: absolute;
     margin-left: -30px;
-    height: auto;
+    overflow-y: auto;
+    max-height: 25em !important;
     width: 30em;
     background-color: #d4ac77 !important;
 }
 
-
 aside:hover {
-    transition: all 0.1s ease-in;
+    transition: all 0.3s ease-in;
     float: right; clear: right;
     display: block;
     visibility: visible;
     position: absolute;
-    height: auto;
+    overflow-y: auto;
+    max-height: 25em !important;
     width: 30em;
-    padding: 0 1em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-style: italic;
     text-align: justify;   
     background-color: #d4ac77 !important;
@@ -2439,6 +2471,17 @@ aside:hover {
 aside:hover::before{
     visibility: hidden;
 }
+
+.info::before {content: "\f05a" !important;}
+.info:hover {background-color: #dbfaff !important;}
+.imp::before {content: "\f12a" !important;}
+.imp:hover {background-color: #ffb47b !important;}
+.quest:before {content: "\f128" !important;}
+.quest:hover {background-color: #e1d7ff !important;}
+.check::before {content: "\f00c" !important;}
+.check:hover {background-color: #d0ffc6 !important;}
+.wrong::before {content: "\f00d" !important;}
+.wrong:hover {background-color: #ff9a9a !important;}
 
 aside cite {
     padding-bottom: 32px !important;
@@ -3310,10 +3353,18 @@ div.workspace-leaf-content[data-type='file-tree-view'] > div.view-content {
     .print thead {border-bottom: 2px solid #583c19 !important;}
 
     /*----- <Code> -----*/
-    .print code, .print pre {
+    .print code {
         padding: 4px !important; line-height: 1.4em !important;
         background-color: #cf954e !important; color: #3b2504 !important;
         break-inside: avoid !important;}
+    .print pre {
+        background-color: black !important;
+    }
+
+    .print pre > code {
+        background-color: black !important;
+        color: white !important;
+    }
 
     /*----- <Dataview> -----*/
     .print .table-view-table td:nth-child(odd), .print .table-view-table tr:nth-child(even) {
@@ -3342,3 +3393,4 @@ div.workspace-leaf-content[data-type='file-tree-view'] > div.view-content {
     .print ul ul::before, .print ul ol::before {border-left: 1px solid #996424;}
 }
 /*--------------- </PDF Print> ---------------*/
+
