@@ -12,25 +12,40 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 
 ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Gallery1.png)
 
-## Aside / Hidden Text
+## Interesting Stuff
+### Aside Notes
 
-There is a new way to use `<aside>`. Let's say that you have this on your note: 
+> ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Aside.gif)
 
-```md
-<aside>A really interesting text - ◑.◑</aside>
-
-Information below the hidden message
+```html
+<aside>Aside Type Default</aside>
+<aside class=info>Aside Type Information</aside>
+<aside class=imp>Aside Type Important</aside>
+<aside class=quest>Aside Type Question</aside>
+<aside class=check>Aside Type Check</aside>
+<aside class=wrong>Aside Type Wrong</aside>
 ```
 
-When you see the note in Preview View, you will see this icon:
+### Bullet-Journal Points
 
-![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/AsidePreviewViewNotHover.png)
+> ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/BulletPoints.gif)
 
-When you hover over that Icon, it will spawn this message:
+### Apolo  ◑.◑
 
-![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/AsidePreviewViewHover.png)
+![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Apolo_1.gif) 
+![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Apolo_2.gif)
 
-This icons appears on the left side of the note, and it won't show on your PDFs.
+### H1 - H6 instead of \#
+
+> ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/H1-H6.gif)
+
+### Resizable Vertical Lines on the OL and UL
+
+> ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Ol-UL.gif)
+
+### Kanban Grid
+
+> ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Kanban.png)
 
 ## Plugins
 
