@@ -45,7 +45,7 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 |:----------------------:|:---------:|
 |      **Canceled**      |    `-`    |
 |       **Moved**        |    `>`    |
-| **Deffered/Scheduled** |    `D`    |
+| **Deferred/Scheduled** |    `D`    |
 |      **Question**      |    `?`    |
 |     **Important**      |    `!`    |
 |        **Add**         |    `+`    |
