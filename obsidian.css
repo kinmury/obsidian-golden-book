@@ -2432,7 +2432,7 @@ aside::before {
     height: 23px !important;
     width: 23px !important;
     border-radius: 4px;
-    background-color: #d4ac77;
+    background-color: #d4ac77 !important;
 }
 
 aside {
@@ -2446,6 +2446,7 @@ aside {
     max-height: 25em !important;
     width: 30em;
     background-color: #d4ac77 !important;
+    z-index: 1;
 }
 
 aside:hover {
@@ -2488,7 +2489,7 @@ aside cite {
 }
 
 aside img {
-    margin: 10px;
+    margin: 10px !important;
 }
 
 /*---------- <PLUGINS> ----------*/
