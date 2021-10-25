@@ -1,6 +1,6 @@
-# ***Golden Book***
+<h1 align="center"><b><i> Golden Book </i></b></h1>
 
-#### Important / Warning
+#### \> Important / Warning
 
 There are some stuff that it's hidden when using this theme. One of them it's the *left side dock ribbon*. If you don't have a shortcut to open it, you need to set one. 
 
@@ -8,14 +8,24 @@ You can use the shortcut `Ctrl + ,` (Windows) / `Cmd + ,` (Mac) in order to acce
 
 If you don't want that side to be hidden, don't worry, you can change it with the Style Settings plugin. 
 
-## Gallery
+<h2 align=center> Gallery </h2>
 
 ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Gallery1.png)
 
-## Interesting Stuff
-### Aside Notes
+<h2 align=center> Interesting Stuff </h2>
+<h3 align=center> Aside Notes </h3>
 
-> ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Aside.gif)
+<img align="right" src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/Aside.gif" width="400" height="250" />
+
+|      Type       |  Code   |
+|:---------------:|:-------:|
+| **Information** | `info`  |
+|  **Important**  |  `imp`  |
+|  **Question**   | `quest` |
+|    **Check**    | `Check` |
+|    **Wrong**    | `Wrong` |
+
+<br>
 
 ```html
 <aside>Aside Type Default</aside>
@@ -26,28 +36,61 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 <aside class=wrong>Aside Type Wrong</aside>
 ```
 
-### Bullet-Journal Points
+<h3 align=center> Bullet-Journal Points </h3>
 
-> ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/BulletPoints.gif)
+<img align="right" src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/BulletPoints.gif" width="400" height="250" />
 
-### Apolo  ◑.◑
 
-![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Apolo_1.gif) 
-![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Apolo_2.gif)
+|          Type          | Character |
+|:----------------------:|:---------:|
+|      **Canceled**      |    `-`    |
+|       **Moved**        |    `>`    |
+| **Deffered/Scheduled** |    `D`    |
+|      **Question**      |    `?`    |
+|     **Important**      |    `!`    |
+|        **Add**         |    `+`    |
+|     **Half Done**      |    `/`    |
 
-### H1 - H6 instead of \#
+```md
+- [-] Canceled 
+- [>] Moved
+- [D] Deffered/Scheduled
+- [?] Question
+- [!] Important
+- [+] Add
+- [/] Half Done
+- [ ] Not Done
+- [x] Done
+```
 
-> ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/H1-H6.gif)
+<h3 align=center> Apolo  ◑.◑ </h3>
 
-### Resizable Vertical Lines on the OL and UL
+<p align="center">
+	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/Apolo_1.gif" width="400" height="250" />
+	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/Apolo_2.gif" width="400" height="250" />
+</p>
 
-> ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Ol-UL.gif)
+<p align="center"><i> Our lovely little companion<br>He likes to watch<br> ◑.◑  </i></p>
 
-### Kanban Grid
+<h3 align=center> H1 - H6 instead of \# </h3>
 
-> ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Kanban.png)
+<p align="center">
+	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/H1-H6.gif" width="400" height="250" />
+</p>
 
-## Plugins
+<h3 align=center> Resizable Vertical Lines on the OL and UL </h3>
+
+<p align="center">
+	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/Ol-UL.gif" width="auto" height="auto" />
+</p>
+
+<h3 align=center> Kanban Grid </h3>
+
+<p align="center">
+	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/Kanban.png" width="auto" height="auto" />
+</p>
+
+<h2 align=center> Plugins </h2>
 
 > **Note** - There is no need of ***ANY*** plugin for you to use Obsidian, this is just a list of Plugins that I find useful and that are affected by this theme
 
@@ -70,7 +113,7 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 	- *Quick Explorer*
 	- *File Tree Alternative*
 
-## Style Settings
+<h2 align=center> Style Settings </h2>
 
 #### Apolo ◑.◑
 - **Title Bar Apolo** - Cancel the animation from Apolo on the "Title bar"
