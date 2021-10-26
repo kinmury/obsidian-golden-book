@@ -134,9 +134,9 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 - **Top Right Corner Position** - Position the "Status bar" at the top right corner
 - **Transparency of the Status Bar** - *Activate this ONLY if the option above is on* - Toggle the transparency of the "Status Bar"
 
-#### Headers (H1 ··· H6)
-- **Hn / \#** - Choose between showing "Hn" or "#" on your headers
-- **Centered Title** - Center the text of the headers in "Preview View"
+#### Headings (H1 ··· H6)
+- **Hn / \#** - Choose between showing "Hn" or "#" on your headings
+- **Centered Title** - Center the text of the headings in "Preview View"
 
 #### Plugins
 ##### Dataview
