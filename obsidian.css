@@ -2366,20 +2366,24 @@ aside::before {
     background-color: #D4AC77 !important;
     padding-left: calc(4px - calc(16px - var(--editor-font-size))*0.2);
     padding-right: calc(4px - calc(16px - var(--editor-font-size))*0.2);
+    font-size: initial;
+}
+
+aside * {
+    visibility: hidden;
 }
 
 aside {
-    transition: all 0.15s ease-out;
+    transition: width 0.5s, height 0.5s;
     float: right; clear: right;
     position: absolute;
-    visibility: hidden;
-    position: absolute;
     margin-left: -30px;
-    overflow-y: auto;
-    max-height: 25em !important;
-    width: 30em;
+    height: 24px;
+    width: 25px;
     background-color: #D4AC77 !important;
     z-index: 1;
+    overflow-y: 1;
+    font-size: 0px;
 }
 
 blockquote aside::before {
@@ -2387,23 +2391,37 @@ blockquote aside::before {
 }
 
 aside:hover {
-    transition: all 0.3s ease-in;
+    transition: width 1s, height 1s;
+    font-size: initial;
     float: right; clear: right;
     display: block;
     visibility: visible;
     position: absolute;
     overflow-y: auto;
-    max-height: 25em !important;
+    height: 5em;
     width: 30em;
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 30px;
     padding-right: 30px;
     font-style: italic;
-    text-align: justify;   
+    text-align: center;   
     background-color: #D4AC77 !important;
     border-left: 0.2rem solid black;
     word-break: break-word !important;
+}
+
+aside:hover * {
+    visibility: visible;
+}
+
+aside:hover::-webkit-scrollbar {
+    width: 8px;
+}
+
+aside::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }
 
 aside:hover::before {
