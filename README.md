@@ -12,6 +12,19 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 
 ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Gallery1.png)
 
+<h2 align=center> Instalation </h2>
+
+## Instalation - Obsidian
+
+*Community Tab* - Go on `Settings>Appearance>"Open Community Themes"` and Search for "Golden Book". Once finded, just apply it and *enjoy it :D*.
+
+## Instalation - GitHub
+
+1. **Download the file "obsidian.css** - You can "clone" this repo using git, or you can just simply press the green button "Code", and then "Download ZIP".
+2. **Move the theme to the folder "(YourVaultName)/.obsidian/theme"** - When you have the theme downloaded, you need to copy it on the "theme folder", for it to appear on your Obsidian Vault.
+   - _Recomendation_ - Since you downloaded it from GitHub, the name of the theme would be "obsidian" instead of "Golden Book". Feel free to change the "obsidian.css" file name to "GoldenBook.css" so you can find it easier on the Theme Manager
+4. **Choose the theme on Obsidian Settings** - Once your done with the previous steps, you just need to choose the theme "GoldenBook" on your Obsidian Setting.
+
 <h2 align=center> Interesting Stuff </h2>
 <h3 align=center> Aside Notes </h3>
 
