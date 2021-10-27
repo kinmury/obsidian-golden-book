@@ -49,33 +49,6 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 <aside class=wrong>Aside Type Wrong</aside>
 ```
 
-<h3 align=center> Bullet-Journal Points </h3>
-
-<img align="right" src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/BulletPoints.gif" width="400" height="250" />
-
-
-|          Type          | Character |
-|:----------------------:|:---------:|
-|      **Canceled**      |    `-`    |
-|       **Moved**        |    `>`    |
-| **Deferred/Scheduled** |    `D`    |
-|      **Question**      |    `?`    |
-|     **Important**      |    `!`    |
-|        **Add**         |    `+`    |
-|     **Half Done**      |    `/`    |
-
-```md
-- [-] Canceled 
-- [>] Moved
-- [D] Deffered/Scheduled
-- [?] Question
-- [!] Important
-- [+] Add
-- [/] Half Done
-- [ ] Not Done
-- [x] Done
-```
-
 <h3 align=center> Apolo  ◑.◑ </h3>
 
 <p align="center">
