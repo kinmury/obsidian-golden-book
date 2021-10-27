@@ -132,6 +132,9 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 - **Title Bar Apolo** - Cancel the animation from Apolo on the "Title bar"
 - **Empty State Apolo** - Cancel the animation from Apolo on the "Empty State" (To see the empty state, just close all the notes (`Ctrl+w`/`Cmd+w`))
 
+### Edit - Preview Sections
+- **Edit - Preview View Width** - Toggle the Width size of the Edit-Preview Views between the default settings and the theme settings
+
 #### Title Bar
 - **Hidden** - Show your Vault Name on the Title Bar
 
