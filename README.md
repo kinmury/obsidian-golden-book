@@ -28,16 +28,15 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 <h2 align=center> Interesting Stuff </h2>
 <h3 align=center> Aside Notes </h3>
 
-<img align="right" src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/Aside.gif" width="400" height="250" />
-
-|      Type       |  Code   |
-|:---------------:|:-------:|
-| **Information** | `info`  |
-|  **Important**  |  `imp`  |
-|  **Question**   | `quest` |
-|    **Check**    | `Check` |
-|    **Wrong**    | `Wrong` |
-
+<p align=center>
+	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/Aside.gif" width="400" height="250" /> <br>
+	<b>Information</b> -> <code>info</code> <br>
+	<b>Important</b> -> <code>imp</code> <br>
+	<b>Question</b> -> <code>quest</code> <br>
+	<b>Check</b> -> <code>check</code> <br>
+	<b>Wrong</b> -> <code>wrong</code> <br>
+</p>
+	
 <br>
 
 ```html
@@ -57,6 +56,20 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 </p>
 
 <p align="center"><i> Our lovely little companion<br>He likes to watch<br> ◑.◑  </i></p>
+
+<h3 align=center> BulletTags </h3>
+
+<p align="center">
+	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/BulletTags.gif" width="400" height="250" />	<br>
+	<b>Canceled</b> -> <code>#-</code> <br>
+	<b>Moved</b> -> <code>#m</code> <br>
+	<b>Quesiton</b> -> <code>#q</code> <br>
+	<b>Deferred/Scheduled</b> -> <code>#d</code> <br>
+	<b>Important</b> -> <code>#i</code> <br>
+	<b>Add</b> -> <code>#a</code> <br>
+	<b>Half Done</b> -> <code>#h</code> <br>
+</p>
+	
 
 <h3 align=center> H1 - H6 instead of \# </h3>
 
