@@ -48,7 +48,7 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 <aside class=wrong>Aside Type Wrong</aside>
 ```
 
-<h3 align=center> Apolo  ◑.◑ </h3>
+<h3 align=center> Apollo  ◑.◑ </h3>
 
 <p align="center">
 	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/Apolo_1.gif" width="400" height="250" />
@@ -114,9 +114,9 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 
 <h2 align=center> Style Settings </h2>
 
-#### Apolo ◑.◑
-- **Title Bar Apolo** - Cancel the animation from Apolo on the "Title bar"
-- **Empty State Apolo** - Cancel the animation from Apolo on the "Empty State" (To see the empty state, just close all the notes (`Ctrl+w`/`Cmd+w`))
+#### Apollo ◑.◑
+- **Title Bar Apollo** - Cancel the animation from Apollo on the "Title bar"
+- **Empty State Apollo** - Cancel the animation from Apollo on the "Empty State" (To see the empty state, just close all the notes (`Ctrl+w`/`Cmd+w`))
 
 ### Edit - Preview Sections
 - **Edit - Preview View Width** - Toggle the Width size of the Edit-Preview Views between the default settings and the theme settings
