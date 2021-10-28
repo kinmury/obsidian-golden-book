@@ -8,6 +8,8 @@ You can use the shortcut `Ctrl + ,` (Windows) / `Cmd + ,` (Mac) in order to acce
 
 If you don't want that side to be hidden, don't worry, you can change it with the Style Settings plugin. 
 
+- **Style Settings** - It's necessary to install the Style Settings plugin in order to fully enjoy this theme
+
 <h2 align=center> Gallery </h2>
 
 ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Gallery1.png)
