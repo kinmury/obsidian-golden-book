@@ -1765,7 +1765,11 @@ button {
 }
 
 input[type='text'], input[type='search'], input[type='email'], input[type='password'], input[type='number'] {
-    color: white;
+    color: white !important;
+}
+
+input[type='text']:hover, input[type='search']:hover, input[type='email']:hover, input[type='password']:hover, input[type='number']:hover {
+    background-color: #360000 !important;
 }
 
 .search-input-container {
@@ -3437,5 +3441,4 @@ div.workspace-leaf-content[data-type='file-tree-view'] > div.view-content {
     .print ol ol::before, .print ol ul::before {border-left: 1px solid #996424;}
     .print ul ul::before, .print ul ol::before {border-left: 1px solid #996424;}
 }
-
 
