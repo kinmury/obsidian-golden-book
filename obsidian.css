@@ -2358,70 +2358,65 @@ img {
 aside::before {
     content: "\f27A";
     font-family: "FA5FS";
-    text-align: center;
     display: block;
     position: absolute;
     visibility: visible;
     border-radius: 4px;
+
+    text-align: center;
+    font-size: initial;
+    
     background-color: #D4AC77 !important;
     padding-left: calc(4px - calc(16px - var(--editor-font-size))*0.2);
     padding-right: calc(4px - calc(16px - var(--editor-font-size))*0.2);
-    font-size: initial;
-}
-
-aside * {
-    visibility: hidden;
-}
-
-aside {
-    transition: width 0.5s, height 0.5s;
-    float: right; clear: right;
-    position: absolute;
-    margin-left: -30px;
-    height: 24px;
-    width: 25px;
-    background-color: #D4AC77 !important;
-    z-index: 1;
-    overflow-y: 1;
-    font-size: 0px;
 }
 
 blockquote aside::before {
     background-color: #C2883C !important;
 }
 
-aside:hover {
-    transition: width 1s, height 1s;
-    font-size: initial;
-    float: right; clear: right;
-    display: block;
-    visibility: visible;
+aside {
+    transition: width 0.7s;
+    float: right;
     position: absolute;
-    overflow-y: auto;
-    height: 5em;
+    height: 24px;
+    width: 25px;
+
+    margin-left: -30px;
+    
+    font-size: 0px;
+    background-color: #D4AC77 !important;
+    z-index: 1;
+}
+
+aside * {
+    visibility: hidden;
+}
+
+aside:hover {
+    transition: width 0.6s;
+    display: block;
+    float: right;
+    position: absolute;
+    visibility: visible;
+    height: auto;
     width: 30em;
+
+    font-size: initial;
+    text-align: center;   
+    word-break: break-word !important;
+    
+    background-color: #D4AC77 !important;
+    border-left: 0.2rem solid black;
+
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 30px;
     padding-right: 30px;
-    font-style: italic;
-    text-align: center;   
-    background-color: #D4AC77 !important;
-    border-left: 0.2rem solid black;
-    word-break: break-word !important;
 }
 
 aside:hover * {
     visibility: visible;
-}
-
-aside:hover::-webkit-scrollbar {
-    width: 8px;
-}
-
-aside::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
 }
 
 aside:hover::before {
