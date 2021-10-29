@@ -1421,6 +1421,7 @@ input.document-search-input:hover, input.document-replace-input:hover {
 
 /*----- <Panes> -----*/
 .tooltip {
+    display: flex;
     color: #FFD700;
     font-weight: bold;
     font-style: italic;
@@ -1428,6 +1429,8 @@ input.document-search-input:hover, input.document-replace-input:hover {
     border-radius: 20px;
     background-color: #5F0707;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    word-wrap:break-word;
+    max-width: fit-content;
 }
 
 .tooltip .tooltip-arrow {
