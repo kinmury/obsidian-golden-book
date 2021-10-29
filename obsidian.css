@@ -2257,12 +2257,12 @@ img {
     font-weight: bold !important;
 }
 
-/*----- <Backlinks> -----*/
-.backlink-pane .tree-item-inner {
+/*----- <Backlinks / Outgoing Link / Outline> -----*/
+.backlink-pane .tree-item-inner, .outgoing-link-pane .tree-item-inner, .outline .tree-item-inner{
     color: black !important;
 }
 
-.backlink-pane .search-result-file-match {
+.backlink-pane .search-result-file-match, .outgoing-link-pane .search-result-file-match, .outline .tree-item-inner {
     color: black !important;
 }
 
@@ -2274,18 +2274,18 @@ img {
     color: white;
 }
 
-.backlink-pane .search-result-file-match:hover, .backlink-pane .tree-item-inner:hover {
+.backlink-pane .search-result-file-match:hover, .backlink-pane .tree-item-inner:hover, .outgoing-link-pane .search-result-file-match:hover, .outgoing-link-pane .tree-item-inner:hover, .outline .search-result-file-match:hover, .outline .tree-item-inner:hover {
     color: white !important;
 }
 
-.backlink-pane .search-result-file-matched-text {
+.backlink-pane .search-result-file-matched-text, .outgoing-link-pane .search-result-file-matched-text, .outline .search-result-file-matched-text{
     color: black !important;
     background-color: gold !important;
     font-weight: bold !important;
     transition: all 0.35s ease;
 }
 
-.backlink-pane .search-result-file-matched-text:hover {
+.backlink-pane .search-result-file-matched-text:hover, .outgoing-link-pane .search-result-file-matched-text:hover, .outline .search-result-file-matched-text:hover{
     padding-left: 7px !important;
     padding-right: 7px !important;
     border-radius: 15px !important;
@@ -2297,17 +2297,34 @@ img {
     font-style: italic !important;
 }
 
-.backlink-pane .nav-action-button.is-active:hover {
+.backlink-pane .nav-action-button.is-active:hover , .outgoing-link-pane .nav-action-button.is-active:hover, .outline .nav-action-button.is-active:hover{
     color: white !important;
 }
 
-.backlink-pane .search-result-file-match-replace-button {
+.backlink-pane .search-result-file-match-replace-button, .outgoing-link-pane .search-result-file-match-replace-button, .outline .search-result-file-match-replace-button{
     opacity: 0;
     background-color: #5F3805 !important;
 }
 
-.backlink-pane .search-result-file-match-replace-button:hover {
+.backlink-pane .search-result-file-match-replace-button:hover, .outgoing-link-pane .search-result-file-match-replace-button:hover, .outline .search-result-file-match-replace-button:hover {
     opacity: 0;
+}
+
+.search-result-file-match-destination-file:hover {
+    background-color: #800000 !important;
+    color: gold !important;
+}
+
+.tree-item-icon.collapse-icon:hover + .tree-item-inner{
+    color: white !important;
+}
+
+.tree-item-self.is-clickable:hover .tree-item-inner {
+    color: white !important;
+}
+
+.outline .pane-empty {
+    color: #800000;
 }
 
 /*----- <Audio> -----*/
