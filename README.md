@@ -50,7 +50,7 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 <aside class=wrong>Aside Type Wrong</aside>
 ```
 
-<h3 align=center> Apolo  ◑.◑ </h3>
+<h3 align=center> Apollo  ◑.◑ </h3>
 
 <p align="center">
 	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/Apolo_1.gif" width="400" height="250" />
