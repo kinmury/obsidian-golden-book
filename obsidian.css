@@ -10,23 +10,29 @@ id: gbss
 settings:
     -
         id: Heading2
-        title: Apolo - Animation
-        description: Cancel the animation from Apolo ◑.◑
+        title: Apollo - Animation
+        description: Cancel the animation from Apollo ◑.◑
         type: heading
         level: 1
         collapsed: true
     -
         id: tbaa
-        title: Title bar Apolo [ ◑.◑]
-        description: Cancel the animation from Apolo on the "Title bar"
+        title: Title bar Apollo [ ◑.◑]
+        description: Cancel the animation from Apollo on the "Title bar"
         type: class-toggle
         default: true
     -
         id: esaa
-        title: Empty state Apolo ¯\_[ ◑.◑]_/¯
-        description: Cancel the animation from Apolo on the "Empty State"
+        title: Empty state Apollo ¯\_[ ◑.◑]_/¯
+        description: Cancel the animation from Apollo on the "Empty State"
         type: class-toggle
         default: true
+    -
+        id: ripAp
+        title: RIP Apollo ◑.◑
+        description: Remove Apollo from existence - ¿Do you really hate him so much?
+        type: class-toggle
+        default: false
     -
         id: Heading7
         title: Edit - Preview Sections
@@ -129,6 +135,19 @@ settings:
         description: Center the text of the headings in Preview View
         type: class-toggle
         default: true
+    -
+        id: Heading8
+        title: Tags
+        description: Change the CSS Settings applied to the tags
+        type: heading
+        level: 1
+        collapsed: true
+    -
+        id: tmv
+        title: Minimal version
+        description: The tag size will decrease and the background color would show only when you hover the tag
+        type: class-toggle
+        default: false
     -
         id: Heading3
         title: Plugins
@@ -300,12 +319,17 @@ settings:
     width: 100%;
 }
 
-/*----- <Apolo -> ◑.◑> -----*/
+/*----- <Apollo -> ◑.◑> -----*/
+/*ripAp*/
 @keyframes side-to-side {
     0% {background-color:none; border-radius: 40px; padding-right: 2px;}
     10% {background-color:none; border-radius: 40px; padding-right: 2px;}
     50% {background-color:gold;  color: black; padding-left: 7px; border-radius: 40px; padding-right: 2px;}
     100% {background-color:none; border-radius: 40px; padding-right: 2px;}
+}
+
+.ripAp .titlebar-left::after, .ripAp .empty-state-title::after, .ripAp .empty-state-title::before {
+    display: none;
 }
 
 .titlebar-left::after {
@@ -797,6 +821,13 @@ cite {
     color: #7A4618 !important;
 }
 
+.tmv a.tag {
+    background-color: rgba(255, 255, 255, 0) !important;
+    padding: 1px !important;
+    padding-right: 5px !important;
+    box-shadow: none !important;
+}
+
 a.tag {
     color: #ff9900 !important;
     background-color: #5F0707;
@@ -863,7 +894,7 @@ blockquote a.internal-link:hover {
 }
 
 a:hover {
-    color: #744600 !important;
+    color: #744600;
 }
 
 a.external-link {
