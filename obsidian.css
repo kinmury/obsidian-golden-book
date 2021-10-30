@@ -1243,6 +1243,12 @@ markdown-preview-view .mermaid .node:hover {
     stroke: grey !important;
 }
 
+.mermaid .label-container {
+    fill: #6B4312 !important;
+    stroke: #000000 !important;
+    stroke-width: 2px !important;
+}
+
 /*---- <Scrollbar> -----*/
 ::-webkit-scrollbar {
     background-color: #5F34004D  !important;  
@@ -1422,15 +1428,19 @@ input.document-search-input:hover, input.document-replace-input:hover {
 /*----- <Panes> -----*/
 .tooltip {
     display: flex;
+    width: 30em;
+    border-radius: 20px;
+    
+    max-width: fit-content;
+    word-wrap:break-word !important;
+    word-break: break-all;
+
     color: #FFD700;
     font-weight: bold;
     font-style: italic;
     text-shadow: 1px 1px black;
-    border-radius: 20px;
     background-color: #5F0707;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    word-wrap:break-word;
-    max-width: fit-content;
 }
 
 .tooltip .tooltip-arrow {
@@ -1907,6 +1917,10 @@ input[type='text']:hover, input[type='search']:hover, input[type='email']:hover,
 
 .community-theme.is-selected .community-theme-screenshot.mod-unavailable {
     color: red !important;
+}
+
+.community-theme.is-selected .community-theme-downloads {
+    color: #800000 !important;
 }
 
 /*-- <Obsidian Icon> --*/
