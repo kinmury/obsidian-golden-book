@@ -511,7 +511,7 @@ settings:
 }
 
 .nav-file-title {
-    padding-left: 10px;
+    padding-left: 7px;
 }
 
 .nav-file-title-content::before {
@@ -3382,6 +3382,41 @@ div.workspace-leaf-content[data-type='file-tree-view'] > div.view-content {
     background: linear-gradient(35deg, rgba(251,184,69,1) 0%, rgba(255,212,138,1) 30%, rgba(252,226,180,1) 60%, rgba(252,226,180,1) 80%, rgba(251,184,69,1) 100%);
 }
 
+/*----- >MySnippets> -----*/
+
+.MySnippets-statusbar-menu .menu-item:hover {
+    color: white;
+    background-color: #5A3600 !important;
+}
+
+.MySnippets-statusbar-menu .checkbox-container.is-enabled {
+    background-color: #d64506;
+}
+
+.MySnippets-statusbar-menu .checkbox-container.is-enabled:hover {
+    background-color: #e8b980;
+}
+
+body .MS-OpenSnippet {
+    background-color: black;
+}
+
+body .MS-OpenSnippet:hover {
+    background-color: #800000;
+}
+
+body .MySnippetsButton.MS-Reload, body .MySnippetsButton.MS-Folder {
+    background-color: black;
+}
+
+body .MySnippetsButton.MS-Folder:hover , body .MySnippetsButton.MS-Reload:hover {
+    background-color: #800000;
+}
+
+.MySnippets-statusbar-menu .menu-item.buttonitem:hover {
+    background-color: #5A3600 !important;
+}
+
 /*---------- </Plugins> ----------*/
 
 /*---------- <PDF> ----------*/
@@ -3507,3 +3542,7 @@ div.workspace-leaf-content[data-type='file-tree-view'] > div.view-content {
     .print ul ul::before, .print ul ol::before {border-left: 1px solid #996424;}
 }
 
+
+.mermaid g.label {
+    font-size: 15px !important;
+}
