@@ -1,18 +1,12 @@
 <h1 align="center"><b><i> Golden Book </i></b></h1>
 
-#### \> Important / Warning
+<p align="center">Welcome to Golden Book<br><br> As of today, 2021/11/07, I just made the Rework of the theme. The main reason behind the rework is the fact that I have gain a little more experience of CSS, and know how to make the previews thinks look better. And there was some issues that needed fixing by redoing almost most of the theme.<br><br> Be aware that the changes may be very big between the previews Golden Book, and the actual _Golden Book_. So, if you liked the preview version more than the actual, **fear not**, because the preview version is saved and you can download it from the releases.<br><br><b><i>Hope you like and enjoy the Rework :D</b></i></p>
 
-There are some stuff that it's hidden when using this theme. One of them it's the *left side dock ribbon*. If you don't have a shortcut to open it, you need to set one. 
-
-You can use the shortcut `Ctrl + ,` (Windows) / `Cmd + ,` (Mac) in order to access the Settings Menu. Once you are there, you can go to the shortcuts panel and set one for both sides.
-
-If you don't want that side to be hidden, don't worry, you can change it with the Style Settings plugin. 
-
-- **Style Settings** - It's necessary to install the Style Settings plugin in order to fully enjoy this theme
 
 <h2 align=center> Gallery </h2>
 
-![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Gallery1.png)
+![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Gallery.png)
+![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/GBSowcase_Kanban.png)
 
 <h2 align=center> Instalation </h2>
 
@@ -26,70 +20,6 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 2. **Move the theme to the folder "(YourVaultName)/.obsidian/theme"** - When you have the theme downloaded, you need to copy it on the "theme folder", for it to appear on your Obsidian Vault.
    - _Recomendation_ - Since you downloaded it from GitHub, the name of the theme would be "obsidian" instead of "Golden Book". Feel free to change the "obsidian.css" file name to "GoldenBook.css" so you can find it easier on the Theme Manager
 4. **Choose the theme on Obsidian Settings** - Once your done with the previous steps, you just need to choose the theme "GoldenBook" on your Obsidian Setting.
-
-<h2 align=center> Interesting Stuff </h2>
-<h3 align=center> Aside Notes </h3>
-
-<p align=center>
-	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/Aside.gif" width="400" height="250" /> <br>
-	<b>Information</b> -> <code>info</code> <br>
-	<b>Important</b> -> <code>imp</code> <br>
-	<b>Question</b> -> <code>quest</code> <br>
-	<b>Check</b> -> <code>check</code> <br>
-	<b>Wrong</b> -> <code>wrong</code> <br>
-</p>
-	
-<br>
-
-```html
-<aside>Aside Type Default</aside>
-<aside class=info>Aside Type Information</aside>
-<aside class=imp>Aside Type Important</aside>
-<aside class=quest>Aside Type Question</aside>
-<aside class=check>Aside Type Check</aside>
-<aside class=wrong>Aside Type Wrong</aside>
-```
-
-<h3 align=center> Apollo  ◑.◑ </h3>
-
-<p align="center">
-	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/Apolo_1.gif" width="400" height="250" />
-	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/Apolo_2.gif" width="400" height="250" />
-</p>
-
-<p align="center"><i> Our lovely little companion<br>He likes to watch<br> ◑.◑  </i></p>
-
-<h3 align=center> BulletTags </h3>
-
-<p align="center">
-	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/BulletTags.gif" width="400" height="250" />	<br>
-	<b>Canceled</b> -> <code>#-</code> <br>
-	<b>Moved</b> -> <code>#m</code> <br>
-	<b>Quesiton</b> -> <code>#q</code> <br>
-	<b>Deferred/Scheduled</b> -> <code>#d</code> <br>
-	<b>Important</b> -> <code>#i</code> <br>
-	<b>Add</b> -> <code>#a</code> <br>
-	<b>Half Done</b> -> <code>#h</code> <br>
-</p>
-	
-
-<h3 align=center> H1 - H6 instead of \# </h3>
-
-<p align="center">
-	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/H1-H6.gif" width="400" height="250" />
-</p>
-
-<h3 align=center> Resizable Vertical Lines on the OL and UL </h3>
-
-<p align="center">
-	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/Ol-UL.gif" width="auto" height="auto" />
-</p>
-
-<h3 align=center> Kanban Grid </h3>
-
-<p align="center">
-	<img src="https://github.com/kinmury/Golden-Book/blob/main/Gallery/Kanban.png" width="auto" height="auto" />
-</p>
 
 <h2 align=center> Plugins </h2>
 
@@ -116,40 +46,17 @@ If you don't want that side to be hidden, don't worry, you can change it with th
 
 <h2 align=center> Style Settings </h2>
 
-#### Apolo ◑.◑
-- **Title Bar Apolo** - Cancel the animation from Apolo on the "Title bar"
-- **Empty State Apolo** - Cancel the animation from Apolo on the "Empty State" (To see the empty state, just close all the notes (`Ctrl+w`/`Cmd+w`))
-
-### Edit - Preview Sections
-- **Edit - Preview View Width** - Toggle the Width size of the Edit-Preview Views between the default settings and the theme settings
-
-#### Title Bar
-- **Hidden** - Show your Vault Name on the Title Bar
-
-#### View Header
-- **Hidden Icons** - Change the hidden state of the "View Header Icons"
-
-#### Side Dock Ribbon Left
-- **Hidden** - Change the hidden state of the "Side Dock Ribbon Left"
-
-#### Status Bar
-- **Hidden** - Change the hidden state of the "Status Bar"
-- **Centered Content** - The content on the status bar is centered by Golden Book CSS. Turn off if you want the content to be by the Obsidian Default CSS
-- **Top Right Corner Position** - Position the "Status bar" at the top right corner
-- **Transparency of the Status Bar** - *Activate this ONLY if the option above is on* - Toggle the transparency of the "Status Bar"
-
-#### Headings (H1 ··· H6)
-- **Hn / \#** - Choose between showing "Hn" or "#" on your headings
-- **Centered Title** - Center the text of the headings in "Preview View"
-
-#### Plugins
-##### Dataview
-- **Capitalize First Word** - Capitalize the first word from every table in "Dataview"
-
-##### Kanban
-- **Grid** - Toggle the Grid Vision of "Kanban"
-
-##### Admonition
-- **Centered Admonition Title** - Toggle the center status of the title
-- **Centered Admonition Content** - Toggle the center status of the content of the "Admonition Content". (Excluding some stuff that don't center well, like unordered and ordered lists)
+- _Title Bar_
+    - **Hidden** - Show your Vault Name on the Title Bar
+- _Headings (H1 ··· H6)_
+    - **Hn / \#** - Choose between showing "Hn" or "#" on your headings
+    - **Centered Title** - Center the text of the headings in "Preview View"
+- _Plugins_
+    - Dataview
+        - **Capitalize First Word** - Capitalize the first word from every table in "Dataview"
+    - Kanban
+        - **Grid** - Toggle the Grid Vision of "Kanban"
+    - Admonition
+        - **Centered Admonition Title** - Toggle the center status of the title
+        - **Centered Admonition Content** - Toggle the center status of the content of the "Admonition Content". (Excluding some stuff that don't center well, like unordered and ordered lists)
 
