@@ -5,7 +5,7 @@
 
 <h2 align=center> Gallery </h2>
 
-![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Gallery.png)
+![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Gallery1.png)
 ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/GBSowcase_Kanban.png)
 
 <h2 align=center> Aside Notes </h2>
