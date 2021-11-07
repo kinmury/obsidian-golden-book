@@ -8,6 +8,12 @@
 ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/Gallery.png)
 ![](https://github.com/kinmury/Golden-Book/blob/main/Gallery/GBSowcase_Kanban.png)
 
+<h2 align=center> Aside Notes </h2>
+
+I removed the `Aside Notes` from the theme. Since it's something that can be used in any other theme, I just made a snippet out of it. 
+
+If you want to use that functionality, you just need to download the snippet, and put it in your Snippet Folder of your Vault
+
 <h2 align=center> Instalation </h2>
 
 ## Instalation - Obsidian
